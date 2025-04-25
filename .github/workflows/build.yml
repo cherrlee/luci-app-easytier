@@ -25,8 +25,9 @@ jobs:
       matrix:
         arch:
           - aarch64_generic
+          - rockchip-armv8
         sdk:
-          - 24.10
+          -openwrt-24.10
 
     steps:
       - uses: actions/checkout@v4
